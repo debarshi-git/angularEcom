@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "Debarshi Kundu",
+      "Mobile_number" : "1234567899",
+      "age" : "28",
+      "date_of_birth": "1990-01-01",
+      "email": "example@example.com",
+      "password": "hashed_password",
+      "address": {
+        "street": "123 Main St",
+        "city": "Example City",
+        "state": "Example State",
+        "zipcode": "12345",
+        "country": "Example Country"
+      },
+      "Language" :[
+        "Hindi",
+        "english"
+      ],
+      "gender"  : "male",
+      "aboutYou": "I am programmer",
+      "agreeTC" : "true",
+      "role" : "admin"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 101,
+      "product_name": "Product A",
+      "description": "Description of Product A",
+      "price": 10.99,
+      "stock_quantity": 100
+    },
+    {
+      "product_id": 102,
+      "product_name": "Product B",
+      "description": "Description of Product B",
+      "price": 24.99,
+      "stock_quantity": 50
+    },
+    {
+      "product_id": 103,
+      "product_name": "Product C",
+      "description": "Description of Product C",
+      "price": 15.49,
+      "stock_quantity": 75
+    },
+    {
+      "product_id": 104,
+      "product_name": "Product D",
+      "description": "Description of Product D",
+      "price": 19.99,
+      "stock_quantity": 120
+    },
+    {
+      "product_id": 105,
+      "product_name": "Product E",
+      "description": "Description of Product E",
+      "price": 29.99,
+      "stock_quantity": 90
+    },
+    {
+      "product_id": 106,
+      "product_name": "Product F",
+      "description": "Description of Product F",
+      "price": 9.99,
+      "stock_quantity": 200
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1,
+      "customer_name": "John Doe",
+      "customer_email": "john@example.com",
+      "shipping_address": "123 Main St, City, Country",
+      "products": [
+        {
+          "product_id": 101,
+          "product_name": "Product A",
+          "quantity": 2,
+          "unit_price": 10.99
+        },
+        {
+          "product_id": 102,
+          "product_name": "Product B",
+          "quantity": 1,
+          "unit_price": 24.99
+        }
+      ],
+      "order_date": "2024-03-30",
+      "total_price": 46.97,
+      "payment_method": "Credit Card",
+      "status": "Shipped"
+    },
+    {
+      "order_id": 2,
+      "customer_name": "Jane Smith",
+      "customer_email": "jane@example.com",
+      "shipping_address": "456 Elm St, City, Country",
+      "products": [
+        {
+          "product_id": 103,
+          "product_name": "Product C",
+          "quantity": 3,
+          "unit_price": 15.49
+        }
+      ],
+      "order_date": "2024-03-29",
+      "total_price": 46.47,
+      "payment_method": "PayPal",
+      "status": "Processing"
+    },
+    {
+      "order_id": 3,
+      "customer_name": "Alice Johnson",
+      "customer_email": "alice@example.com",
+      "shipping_address": "789 Oak St, City, Country",
+      "products": [
+        {
+          "product_id": 104,
+          "product_name": "Product D",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": 105,
+          "product_name": "Product E",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "order_date": "2024-03-28",
+      "total_price": 79.97,
+      "payment_method": "Bank Transfer",
+      "status": "Delivered"
+    }
+  ]
+}
