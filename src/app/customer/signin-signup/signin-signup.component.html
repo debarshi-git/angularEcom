@@ -1,1 +1,275 @@
-<p>signin-signup works!</p>
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <div class="card" *ngIf="regForm">
+        <!-- reactive form -->
+        <div class="card-header">Registration</div>
+        <div class="card-body">
+          <form [formGroup]="signUpfrom" (ngSubmit)="onSubmitSignUp()">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="name"
+                placeholder="Enter username"
+              />
+            </div>
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input
+                type="number"
+                class="form-control"
+                formControlName="mobNumber"
+                placeholder="Enter Mobile Number"
+              />
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input
+                type="number"
+                class="form-control"
+                formControlName="age"
+                placeholder="Enter age"
+              />
+            </div>
+            <div class="form-group">
+              <label for="dob">Date Of Birth</label>
+              <input
+                id="dob"
+                type="date"
+                class="form-control"
+                formControlName="dob"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                formControlName="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                formControlName="password"
+                placeholder="Enter password"
+              />
+              <!-- </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                class="form-control"
+                formControlName="confirmPassword"
+                placeholder="Confirm password"
+              /> -->
+            </div>
+            <div class="form-group">
+              <label for="addLine1">Address Line 1</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="addLine1"
+                placeholder="Enter Address"
+              />
+            </div>
+            <div class="form-group">
+              <label for="addLine2">Address Line 2</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="addLine2"
+                placeholder="Enter Address"
+              />
+            </div>
+            <div class="form-group">
+              <label for="city">city</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="city"
+                placeholder="Enter city"
+              />
+            </div>
+            <div class="form-group">
+              <label for="state">State</label>
+              <select id="state" class="form-control" formControlName="state">
+                <option selected>Select State</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="zipcode">Zip Code</label>
+              <input
+                type="number"
+                class="form-control"
+                formControlName="zipcode"
+                placeholder="Enter Zipcode"
+              />
+            </div>
+            <!-- <div class="form-group">
+              <label>Languages</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="language"
+                  formControlName="english"
+                  value="english"
+                />
+                <label class="form-check-label" for="english"> English </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="language"
+                  formControlName="spanish"
+                  value="spanish"
+                />
+                <label class="form-check-label" for="spanish"> Spanish </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="language"
+                  formControlName="french"
+                  value="french"
+                />
+                <label class="form-check-label" for="french"> French </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="language"
+                  formControlName="german"
+                  value="german"
+                />
+                <label class="form-check-label" for="german"> German </label>
+              </div>
+            </div> -->
+            <!-- <div class="form-group">
+              <label>Gender</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  formControlName="male"
+                  value="male"
+                />
+                <label class="form-check-label" for="male"> Male </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  formControlName="female"
+                  value="female"
+                />
+                <label class="form-check-label" for="female"> Female </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  formControlName="other"
+                  value="other"
+                />
+                <label class="form-check-label" for="other"> Other </label>
+              </div>
+            </div> -->
+            <div class="form-group">
+              <label for="aboutYou">SomeThing About You</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="aboutYou"
+                placeholder="Enter About You"
+              />
+            </div>
+            <div class="form-group">
+              <label for="role">What is your Role</label>
+              <select id="role" class="form-control" formControlName="role">
+                <option value="seller">Seller</option>
+                <option value="buyer">Buyer</option>
+                <option value="admin">Admin</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                class="form-check-inline"
+                formControlName="agreetc"
+                id="agreetc"
+              />
+              <label for="agreetc">Tearms & Conditions</label>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">
+                Register
+              </button>
+            </div>
+          </form>
+          <!-- login from here  -> template driven form -->
+          <p class="sim-pointer" routerLink="/sign-in">
+            Already have an account click here
+          </p>
+        </div>
+      </div>
+      <div class="card" *ngIf="!regForm">
+        <div class="card-header">login</div>
+        <div class="card-body">
+          <form
+            #tf="ngForm"
+            (ngSubmit)="tf.form.valid && onSubmitSignIn()"
+            novalidate
+          >
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                name="UserEmail"
+                placeholder="Enter email"
+                [(ngModel)]="signInFormValue.userEmail"
+                #userEmail="ngModel"
+                required
+                email
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="Userpassword"
+                placeholder="Enter Password"
+                [(ngModel)]="signInFormValue.userPassword"
+                #userPassword="ngModel"
+                togglePassword
+              />
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">
+                Login
+              </button>
+            </div>
+          </form>
+          <p class="sim-pointer" routerLink="/sign-up">
+            Dont have account click here to Register
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

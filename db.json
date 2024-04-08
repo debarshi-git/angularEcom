@@ -3,11 +3,11 @@
     {
       "id": 1,
       "Name": "Debarshi Kundu",
-      "Mobile_number" : "1234567899",
+      "Mobile_number" : "123456789",
       "age" : "28",
       "date_of_birth": "1990-01-01",
       "email": "example@example.com",
-      "password": "hashed_password",
+      "password": "123456789",
       "address": {
         "street": "123 Main St",
         "city": "Example City",
@@ -15,11 +15,6 @@
         "zipcode": "12345",
         "country": "Example Country"
       },
-      "Language" :[
-        "Hindi",
-        "english"
-      ],
-      "gender"  : "male",
       "aboutYou": "I am programmer",
       "agreeTC" : "true",
       "role" : "admin"

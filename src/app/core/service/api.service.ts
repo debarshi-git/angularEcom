@@ -8,8 +8,10 @@ import { Observable, catchError, throwError } from 'rxjs';
 export class ApiService {
   httpOptions = {
     headers: new HttpHeaders({
-      "Content-Type" :"application/json",
-      "Access-Control-Allow-Origin" : "*"
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin":"*",
+       "Access-Control-Allow-Headers" : "*",
+       "Access-Control-Allow_methods" : "*"
     })
   }
 

@@ -2,12 +2,12 @@
 //so to register we needs to pass data in model..
 export class user{
     name!:string;
-    passward!:string;
+    password!:string;
     role!:string;
     mobNumber!:string;
     address!:address;
-    gender!:string;
-    language!:string;
+    //gender!:string;
+   // language!:string;
     email!:string;
     dob!:string;
     agreetc!:string;
@@ -16,7 +16,7 @@ export class user{
 }
 
 export class address{
-    id!:string;
+    id!:number;
     addLine1!:string;
     addLine2!:string;
     city!:string;
