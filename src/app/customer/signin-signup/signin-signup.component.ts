@@ -81,47 +81,47 @@ export class SigninSignupComponent {
       this.user_reg_data=this.signUpfrom.value;
       this.user_dto = {
 
-        // name: this.signUpfrom.value.name,
-        // password: this.signUpfrom.value.password,
-        // role: this.signUpfrom.value.role,
-        // mobNumber: this.signUpfrom.value.mobNumber,
-        // address: {
-        //   id: 0,
-        //   addLine1: this.signUpfrom.value.addLine1,
-        //   addLine2: this.signUpfrom.value.addLine2,
-        //   city: this.signUpfrom.value.city,
-        //   state: this.signUpfrom.value.state,
-        //   zipcode: this.signUpfrom.value.zipcode
-        // },
-        // email: this.signUpfrom.value.email,
-        // dob: this.signUpfrom.value.dob,
-        // agreetc: this.signUpfrom.value.agreetc,
-        // age: this.signUpfrom.value.age,
-        // aboutYou: this.signUpfrom.value.aboutYou
-        // //gender:this.user_data.gender,
-        // //language:this.user_data.language,
-
-
-
-        aboutYou:this.user_reg_data.aboutYou,
-        age:this.user_reg_data.age,
-        agreetc:this.user_reg_data.agreetc,
-        dob:this.user_reg_data.dob,
-        email:this.user_reg_data.email,
-        //gender:this.user_reg_data.gender,
-        address:{
+        name: this.signUpfrom.value.name,
+        password: this.signUpfrom.value.password,
+        role: this.signUpfrom.value.role,
+        mobNumber: this.signUpfrom.value.mobNumber,
+        address: {
           id: 0,
-          addLine1: this.user_reg_data.addLine1,
-          addLine2: this.user_reg_data.addLine2,
-          city: this.user_reg_data.city,
-          state: this.user_reg_data.state,
-          zipcode: this.user_reg_data.zipcode,
+          addLine1: this.signUpfrom.value.addLine1,
+          addLine2: this.signUpfrom.value.addLine2,
+          city: this.signUpfrom.value.city,
+          state: this.signUpfrom.value.state,
+          zipcode: this.signUpfrom.value.zipcode
         },
-        //language:this.user_reg_data.language,
-        mobNumber:this.user_reg_data.mobNumber,
-        name:this.user_reg_data.name,
-        password:this.user_reg_data.password,
-        role:this.user_reg_data.role
+        email: this.signUpfrom.value.email,
+        dob: this.signUpfrom.value.dob,
+        agreetc: this.signUpfrom.value.agreetc,
+        age: this.signUpfrom.value.age,
+        aboutYou: this.signUpfrom.value.aboutYou
+        //gender:this.user_data.gender,
+        //language:this.user_data.language,
+
+
+
+        // aboutYou:this.user_reg_data.aboutYou,
+        // age:this.user_reg_data.age,
+        // agreetc:this.user_reg_data.agreetc,
+        // dob:this.user_reg_data.dob,
+        // email:this.user_reg_data.email,
+        // //gender:this.user_reg_data.gender,
+        // address:{
+        //   id: 0,
+        //   addLine1: this.user_reg_data.addLine1,
+        //   addLine2: this.user_reg_data.addLine2,
+        //   city: this.user_reg_data.city,
+        //   state: this.user_reg_data.state,
+        //   zipcode: this.user_reg_data.zipcode,
+        // },
+        // //language:this.user_reg_data.language,
+        // mobNumber:this.user_reg_data.mobNumber,
+        // name:this.user_reg_data.name,
+        // password:this.user_reg_data.password,
+        // role:this.user_reg_data.role
         
       }
 

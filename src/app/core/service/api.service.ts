@@ -6,12 +6,14 @@ import { Observable, catchError, throwError } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
+  
   httpOptions = {
     headers: new HttpHeaders({
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin":"*",
-       "Access-Control-Allow-Headers" : "*",
-       "Access-Control-Allow_methods" : "*"
+      // "Access-Control-Allow-Origin":'*',
+      //  "Access-Control-Allow-Headers" : 'Content-Type, Authorization',//"*",
+      //  "Access-Control-Allow_methods" :  '*'//"*"
+      //"Access-Control-Allow-Headers": "Access-Control-Allow-Origin"
     })
   }
 

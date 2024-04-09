@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class LoginSignupService {
   // run this command--> json-server --watch db.json
-  
+
   public login_url = "http://localhost:3000";
   public reg_url = "http://localhost:3000"
 

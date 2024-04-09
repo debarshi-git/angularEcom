@@ -1,10 +1,10 @@
 {
-  "users": [
+  "user": [
     {
       "id": 1,
       "Name": "Debarshi Kundu",
-      "Mobile_number" : "123456789",
-      "age" : "28",
+      "Mobile_number": "123456789",
+      "age": "28",
       "date_of_birth": "1990-01-01",
       "email": "example@example.com",
       "password": "123456789",
@@ -16,8 +16,28 @@
         "country": "Example Country"
       },
       "aboutYou": "I am programmer",
-      "agreeTC" : "true",
-      "role" : "admin"
+      "agreeTC": "true",
+      "role": "seller"
+    },
+    {
+      "id": "f251",
+      "name": "Debarshi Kundu",
+      "password": "123456789",
+      "role": "admin",
+      "mobNumber": 5567567,
+      "address": {
+        "id": 0,
+        "addLine1": "xvbx",
+        "addLine2": "xvcxvc",
+        "city": "cxvxx",
+        "state": "...",
+        "zipcode": 354
+      },
+      "email": "Debarshi@gmail.com",
+      "dob": "2024-04-12",
+      "agreetc": true,
+      "age": 245,
+      "aboutYou": " bfbgfg"
     }
   ],
   "products": [
