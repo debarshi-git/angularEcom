@@ -56,9 +56,9 @@ export class SellerBuyerAuthGuardlogIn implements CanActivate{
       this.router.navigate(["/seller-dashboard"]);
       return false;
     }
-    else if(role=="bayer")
+    else if(role=="buyer")
     {
-      this.router.navigate(["/bayer-dashboard"]);
+      this.router.navigate(["/buyer-dashboard"]);
       return false;
     }
     else

@@ -1,35 +1,67 @@
-<nav class="navbar">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Deb_ECOM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Language
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">ENG</a></li>
+            <li><a class="dropdown-item" href="#">HIN</a></li>
+          </ul>
+        </li> -->
 
-  <div  routerLink="" style=" margin-left: 20px">Navbar</div>
-
-  <div class="dropdown">
-    <form>
-      <label style="margin-right: 5px;"> Language </label>
-      <select>
-      <option value = "English"> English 
-      </option>
-      <option value = "Hindi"> Hindi 
-      </option>
-      </select>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">About Us</a>
+        </li>
+        <li class="nav-item" *ngIf=" user_role =='buyer'">
+          <a class="nav-link" routerLink="/buyer-dashboard">Order B</a>
+        </li>
+        <li class="nav-item" *ngIf=" user_role =='admin'">
+          <a class="nav-link " routerLink="/buyer-dashboard">All Order A</a>
+        </li>
+        <li class="nav-item" *ngIf=" user_role =='seller'">
+          <a class="nav-link " routerLink="/seller/product">Product s</a>
+        </li>
+        <li class="nav-item" *ngIf=" user_role =='admin'">
+          <a class="nav-link " routerLink="/admin/product">All Product A</a>
+        </li>
+        <li class="nav-item" *ngIf=" user_role =='admin'">
+          <a class="nav-link " routerLink="/admin/user">Users A</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLink="/contact-us">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <ul class="navbar-nav ml-auto"  *ngIf="!logged_in">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/sign-in">Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/sign-up">Sign Up</a>
+        </li>
+    </ul>
+    <ul class="navbar-nav ml-auto" *ngIf="logged_in">
+        <li class="nav-item">
+            <a class="nav-link sim-pointer" routerLink="/my-profile">My Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link sim-pointer" (click)="logout()">Log Out</a>
+        </li>
+    </ul>
 
+    </div>
   </div>
-  <div  routerLink="">Home</div>
-  <div  routerLink="">Aboutus</div>
-  <div  routerLink="">Order B</div>
-  <div  routerLink="">All Order A</div>
-  <div  routerLink="seller/product">Product s</div>
-  <div  routerLink="">All Product A</div>
-  <div routerLink="/contact-us">Contact us</div>
-  <input class = "searchInput"
-    type="search"
-    placeholder="Search"
-    aria-label="Search"
-  />
-  <button class="SearchButton">Search</button>
-
-  <div routerLink="/sign-in">Sign In</div>
-  <div routerLink="/sign-up">Sign up</div>
-  <div routerLink="/my-profile">My Profile</div>
-  <div style="margin-right: 20px ">Log Out</div>
 </nav>
