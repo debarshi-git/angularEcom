@@ -1,25 +1,6 @@
 {
   "user": [
     {
-      "id": 1,
-      "Name": "Debarshi Kundu",
-      "Mobile_number": "123",
-      "age": "28",
-      "date_of_birth": "1990-01-01",
-      "email": "seller@gmail.com",
-      "password": "123",
-      "address": {
-        "street": "123 Main St",
-        "city": "Example City",
-        "state": "Example State",
-        "zipcode": "12345",
-        "country": "Example Country"
-      },
-      "aboutYou": "I am programmer",
-      "agreeTC": "true",
-      "role": "seller"
-    },
-    {
       "id": "f251",
       "name": "Debarshi Kundu",
       "password": "123",
@@ -31,7 +12,7 @@
         "addLine2": "xvcxvc",
         "city": "cxvxx",
         "state": "...",
-        "zipcode": 354
+        "zipCode": 354
       },
       "email": "admin@gmail.com",
       "dob": "2024-04-12",
@@ -40,29 +21,129 @@
       "aboutYou": " bfbgfg"
     },
     {
-      "id": "2",
-      "name": "Debarshi Kundu",
-      "password": "123",
+      "id": "a345",
+      "name": "Alice Smith",
+      "password": "password123",
+      "role": "admin",
+      "mobNumber": 9876543210,
+      "address": {
+        "id": 1,
+        "addLine1": "123 Main St",
+        "addLine2": "Apt 101",
+        "city": "Anytown",
+        "state": "CA",
+        "zipCode": 12345
+      },
+      "email": "alice@example.com",
+      "dob": "1990-05-15",
+      "agreetc": true,
+      "age": 31,
+      "aboutYou": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": "b678",
+      "name": "Bob Johnson",
+      "password": "bob@123",
+      "role": "seller",
+      "mobNumber": 1234567890,
+      "address": {
+        "id": 2,
+        "addLine1": "456 Elm St",
+        "addLine2": "Suite 200",
+        "city": "Othertown",
+        "state": "NY",
+        "zipCode": 54321
+      },
+      "email": "bob@example.com",
+      "dob": "1985-08-22",
+      "agreetc": true,
+      "age": 36,
+      "aboutYou": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "c901",
+      "name": "Carol Davis",
+      "password": "carol#789",
+      "role": "seller",
+      "mobNumber": 5555555555,
+      "address": {
+        "id": 3,
+        "addLine1": "789 Oak St",
+        "addLine2": "Unit 300",
+        "city": "Sometown",
+        "state": "TX",
+        "zipCode": 67890
+      },
+      "email": "carol@example.com",
+      "dob": "1988-12-10",
+      "agreetc": true,
+      "age": 33,
+      "aboutYou": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "id": "d234",
+      "name": "David Brown",
+      "password": "david!456",
       "role": "buyer",
-      "mobNumber": 5567567,
+      "mobNumber": 9871236540,
+      "address": {
+        "id": 4,
+        "addLine1": "101 Pine St",
+        "addLine2": "Apt 400",
+        "city": "Anothertown",
+        "state": "FL",
+        "zipCode": 98765
+      },
+      "email": "david@example.com",
+      "dob": "1995-03-05",
+      "agreetc": true,
+      "age": 26,
+      "aboutYou": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "id": "e567",
+      "name": "Emily Wilson",
+      "password": "emily@789",
+      "role": "buyer",
+      "mobNumber": 5559876543,
+      "address": {
+        "id": 5,
+        "addLine1": "222 Maple St",
+        "addLine2": "Suite 500",
+        "city": "Mapletown",
+        "state": "WA",
+        "zipCode": 54321
+      },
+      "email": "emily@example.com",
+      "dob": "1992-07-18",
+      "agreetc": true,
+      "age": 29,
+      "aboutYou": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "da1f",
+      "aboutYou": "sfgdfg",
+      "age": 24334,
+      "agreetc": true,
+      "dob": "2024-04-26",
+      "email": "Debarshi.Kundu@clario.com",
       "address": {
         "id": 0,
         "addLine1": "xvbx",
         "addLine2": "xvcxvc",
         "city": "cxvxx",
-        "state": "...",
-        "zipcode": 354
+        "state": "MP",
+        "zipCode": "354"
       },
-      "email": "buyer@gmail.com",
-      "dob": "2024-04-12",
-      "agreetc": true,
-      "age": 245,
-      "aboutYou": " bfbgfg"
+      "mobNumber": "sdf",
+      "name": "dgsdfsadf",
+      "password": "345234535",
+      "role": "seller"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Polyester Door Curtain",
       "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
       "mrp": "1000",
@@ -70,7 +151,7 @@
       "status": "publish"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Water Bottle",
       "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
       "mrp": "123",
@@ -78,7 +159,7 @@
       "status": "publish"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Metro Living Self Design Pillows Cover",
       "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
       "mrp": "500",
@@ -86,7 +167,7 @@
       "status": "draft"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Metro Living Self Design Pillows Cover",
       "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
       "mrp": "500",
@@ -94,7 +175,7 @@
       "status": "draft"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "TIZUM Aluminium Portable Stand",
       "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
       "mrp": "300",
@@ -102,7 +183,7 @@
       "status": "inactive"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Polyester Door Curtain",
       "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
       "mrp": "1000",
@@ -110,7 +191,7 @@
       "status": "publish"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Water Bottle",
       "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
       "mrp": "123",
@@ -118,7 +199,7 @@
       "status": "publish"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Metro Living Self Design Pillows Cover",
       "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
       "mrp": "500",
@@ -126,7 +207,7 @@
       "status": "draft"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "TIZUM Aluminium Portable Stand",
       "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
       "mrp": "300",
@@ -134,7 +215,7 @@
       "status": "inactive"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Polyester Door Curtain",
       "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
       "mrp": "1000",
@@ -142,7 +223,7 @@
       "status": "publish"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Water Bottle",
       "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
       "mrp": "123",
@@ -150,7 +231,7 @@
       "status": "publish"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Metro Living Self Design Pillows Cover",
       "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
       "mrp": "500",
@@ -158,7 +239,7 @@
       "status": "draft"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "TIZUM Aluminium Portable Stand",
       "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
       "mrp": "300",
@@ -166,7 +247,7 @@
       "status": "inactive"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Angular 17 tutorial",
       "productDesc": "This is an angular tutorial for beginners",
       "mrp": "799",
@@ -176,7 +257,7 @@
   ],
   "orders": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 3,
       "sellerId": 2,
       "product": {
@@ -200,7 +281,7 @@
       "dateTime": "18/07/2019"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 3,
       "sellerId": 2,
       "product": {

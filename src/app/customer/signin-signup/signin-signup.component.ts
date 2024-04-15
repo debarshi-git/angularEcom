@@ -57,7 +57,7 @@ export class SigninSignupComponent {
         addLine2:['',Validators.required],
         city:['',Validators.required],
         state:['',Validators.required],
-        zipcode:['',Validators.required],
+        zipCode:['',Validators.required],
         //language:['',Validators.required],
         //gender:['',Validators.required],
         aboutYou:['',Validators.required],
@@ -91,7 +91,7 @@ export class SigninSignupComponent {
           addLine2: this.signUpfrom.value.addLine2,
           city: this.signUpfrom.value.city,
           state: this.signUpfrom.value.state,
-          zipcode: this.signUpfrom.value.zipcode
+          zipCode: this.signUpfrom.value.zipCode
         },
         email: this.signUpfrom.value.email,
         dob: this.signUpfrom.value.dob,

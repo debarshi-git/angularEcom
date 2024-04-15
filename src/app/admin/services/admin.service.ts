@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class AdminService {
   public user_url = "http://localhost:3000/user/"; // using a '/' because need to contaminate with userId... 
   public Product_url = "http://localhost:3000/products/";
-  public all_user = "http://localhost:3000/orders";
+  public all_user = "http://localhost:3000/user";
 
   constructor( private apiService : ApiService) { }
 
@@ -37,7 +37,7 @@ export class AdminService {
   //get data of single user
   singleUser(userId : any)
   {
-    return this.apiService.get(this.user_url,userId);
+    return this.apiService.get(this.user_url+userId);
   }
 
   //update data of indivisual user
