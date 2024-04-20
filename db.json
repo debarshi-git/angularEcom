@@ -165,14 +165,6 @@
       "status": "draft"
     },
     {
-      "id": "4",
-      "name": "Metro Living Self Design Pillows Cover",
-      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
-      "mrp": "500",
-      "dp": "399",
-      "status": "draft"
-    },
-    {
       "id": "5",
       "name": "TIZUM Aluminium Portable Stand",
       "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
@@ -180,56 +172,9 @@
       "dp": "199",
       "status": "inactive"
     },
-    {
-      "id": "6",
-      "name": "Polyester Door Curtain",
-      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
-      "mrp": "1000",
-      "dp": "499",
-      "status": "publish"
-    },
-    {
-      "id": "7",
-      "name": "Water Bottle",
-      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
-      "mrp": "123",
-      "dp": "99",
-      "status": "publish"
-    },
+ 
     {
       "id": "8",
-      "name": "Metro Living Self Design Pillows Cover",
-      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
-      "mrp": "500",
-      "dp": "399",
-      "status": "draft"
-    },
-    {
-      "id": "9",
-      "name": "TIZUM Aluminium Portable Stand",
-      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
-      "mrp": "300",
-      "dp": "199",
-      "status": "inactive"
-    },
-    {
-      "id": "10",
-      "name": "Polyester Door Curtain",
-      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
-      "mrp": "1000",
-      "dp": "499",
-      "status": "publish"
-    },
-    {
-      "id": "11",
-      "name": "Water Bottle",
-      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
-      "mrp": "123",
-      "dp": "99",
-      "status": "publish"
-    },
-    {
-      "id": "12",
       "name": "Metro Living Self Design Pillows Cover",
       "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
       "mrp": "500",
