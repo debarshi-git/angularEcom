@@ -27,7 +27,7 @@ export class address{
 export class Product{
     id!:number;
     name!:string;
-    description!:string;
+    productDesc!:string;
     mrp!:number;
     dp!:number;
     status!:boolean;
